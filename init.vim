@@ -1,5 +1,3 @@
-" Isi dari: ~/.config/nvim/init.vim
-
 " Start NERDTree and leave the cursor in it.
 autocmd VimEnter * NERDTree
 
