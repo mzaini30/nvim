@@ -3,6 +3,8 @@ autocmd VimEnter * NERDTree
 
 set tabstop=4
 
+let g:auto_save = 1  " enable AutoSave on Vim startup
+
 call plug#begin('~/.vim/plugged')
 	Plug 'evanleck/vim-svelte', {'branch': 'main'}
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
