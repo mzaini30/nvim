@@ -1,7 +1,8 @@
 " Start NERDTree and leave the cursor in it.
 autocmd VimEnter * NERDTree
 
-set tabstop=4
+" set tabstop=4
+set mouse=a
 
 let g:auto_save = 1  " enable AutoSave on Vim startup
 let g:auto_save_events = ["InsertLeave", "TextChanged"]
