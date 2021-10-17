@@ -2,6 +2,9 @@
 autocmd VimEnter * NERDTree
 
 set tabstop=4
+set shiftwidth=4
+set expandtab
+
 set mouse=a
 
 let g:auto_save = 1  " enable AutoSave on Vim startup
