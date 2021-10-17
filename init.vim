@@ -12,6 +12,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 	Plug 'neoclide/coc-emmet', {'do': 'pnpm i --shamefully-hoist'}
 	Plug 'neoclide/coc-json', {'do': 'pnpm i --shamefully-hoist'}
+	Plug 'iamcco/coc-tailwindcss',  {'do': 'pnpm i --shamefully-hoist && pnpm build'}
 	Plug '907th/vim-auto-save'
 	Plug 'preservim/nerdtree'
 call plug#end()
