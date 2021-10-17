@@ -18,4 +18,6 @@ call plug#begin('~/.vim/plugged')
 	Plug 'iamcco/coc-tailwindcss',  {'do': 'pnpm i --shamefully-hoist && pnpm build'}
 	Plug '907th/vim-auto-save'
 	Plug 'preservim/nerdtree'
+    Plug 'wakatime/vim-wakatime'
+    Plug 'rajasegar/vim-astro', {'branch': 'main'}
 call plug#end()
